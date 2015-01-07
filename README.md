@@ -6,11 +6,13 @@ an on-the-fly surface hopping code for nonadiabatic molecular dynamics of poly-a
 This JADE code has been interfaced with Gaussian, Gamess, Turbomole.
 the popular TDDFT/TDA has been interfaced, TDHF/CIS is also possible.
 ADC(2)/CC2 is also interfaced with Turbomole.
+the interface with the semi-emperical MNDO code is also implemented in this release.
 
 The Langevin Dynamics is implemented now.
 
 
-Some of the code is still in progress, which would be updated later, if possible, such as addtional interface to Molpro, Q-CHEM et al., spin orbital coupling, ONIOM/QM/MM feature, force field based dynamics.
+Some of the code is still in progress or in testing stage, which would be updated later, if possible.
+addtional interface to Molpro, Q-CHEM et al., spin orbital coupling, ONIOM/QM/MM feature, force field based dynamics.
 
 
 
