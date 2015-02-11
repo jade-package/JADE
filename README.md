@@ -1,5 +1,12 @@
 JADE
 ====
+the JADE Program
+
+an on-the-fly surface hopping code for poly-atomic systems 
+
+Copyright (c) 2014 
+
+====
 
 an on-the-fly surface hopping code for nonadiabatic molecular dynamics of poly-atomic systems
 
@@ -16,8 +23,28 @@ addtional interface to Molpro, Q-CHEM et al., spin orbital coupling, ONIOM/QM/MM
 
 
 
-This code is mainly developed by Prof. Dr. Zhenggang Lan and co-workers at QIBEBT, Qingdao, China, in recent years.
 
+====
 
+This JADE package and related tools are mainly developed
+by Prof. Dr. Zhenggang Lan and co-workers at QIBEBT, Qingdao, China, in recent years.
 
+Contact info:
+Prof. Dr. Zhenggang Lan
+e-mail - lanzg@qibebt.ac.cn
 
+---- 
+Main Contributors at the current stage
+
+Likai Du (dulk@qibebt.ac.cn or dulikai@gmail.com)
+Zhenggang Lan\* (lanzg@qibebt.ac.cn)
+
+====
+
+with contributions by
+-------------------------------
+Jun Wang (wang\_jun@qibebt.ac.cn)
+Jing Huang (huangjing@qibebt.ac.cn)
+Deping Hu (hudp@qibebt.ac.cn)
+
+--------------------------------
