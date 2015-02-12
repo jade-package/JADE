@@ -1,0 +1,144 @@
+fort.7
+gamess.F05
+gamess.F08
+gamess.F08.001
+gamess.F10
+gamess.F22
+gamess.F22.001
+USERSCR REMOVED
+gamess.dat
+----- GAMESS execution script 'rungms' -----
+This job is running on host eam
+under operating system Linux at Thu Apr 10 17:44:48 CST 2014
+Available scratch disk space (Kbyte units) at beginning of the job is
+Filesystem     1K-blocks      Used Available Use% Mounted on
+/dev/sda3      949976156 229158836 672561272  26% /
+GAMESS temporary binary files will be written to /tmp/dulikai
+GAMESS supplementary output files will be written to /home/dulikai/tree/shmd/trunk/ci_overlap/interface_gamess_qm/test/GMS_EXAM/scr
+Copying input file gamess.inp to your run's scratch directory...
+cp gamess.inp /tmp/dulikai/gamess.F05
+unset echo
+READ GMS-FILES.CSH
+/home/dulikai/opt/gamess/ddikick.x /home/dulikai/opt/gamess/gamess.06.x gamess -ddi 1 2 eam:cpus=2 -scr /tmp/dulikai
+
+ Distributed Data Interface kickoff program.
+ Initiating 2 compute processes on 1 nodes to run the following command:
+ /home/dulikai/opt/gamess/gamess.06.x gamess 
+
+ DDI Process 1: error code 911
+ DDI Process 1: shmget returned an error.
+ Error ENOSPC: The number of shared memory identifiers for the node has been reached.
+ ddikick.x: application process 1 quit unexpectedly.
+ ddikick.x: Fatal error detected.
+ The error is most likely to be in the application, so check for
+ input errors, disk space, memory needs, application bugs, etc.
+ ddikick.x will now clean up all processes, and exit...
+ DDI Process 0: terminated upon request.
+          ******************************************************
+          *         GAMESS VERSION =  1 MAY 2013 (R1)          *
+          *             FROM IOWA STATE UNIVERSITY             *
+          * M.W.SCHMIDT, K.K.BALDRIDGE, J.A.BOATZ, S.T.ELBERT, *
+          *   M.S.GORDON, J.H.JENSEN, S.KOSEKI, N.MATSUNAGA,   *
+          *          K.A.NGUYEN, S.J.SU, T.L.WINDUS,           *
+          *       TOGETHER WITH M.DUPUIS, J.A.MONTGOMERY       *
+          *         J.COMPUT.CHEM.  14, 1347-1363(1993)        *
+          **************** 64 BIT LINUX VERSION ****************
+
+  SINCE 1993, STUDENTS AND POSTDOCS WORKING AT IOWA STATE UNIVERSITY
+  AND ALSO IN THEIR VARIOUS JOBS AFTER LEAVING ISU HAVE MADE IMPORTANT
+  CONTRIBUTIONS TO THE CODE:
+     IVANA ADAMOVIC, CHRISTINE AIKENS, YURI ALEXEEV, POOJA ARORA,
+     ANDREY ASADCHEV, ROB BELL, PRADIPTA BANDYOPADHYAY, JONATHAN BENTZ,
+     BRETT BODE, GALINA CHABAN, WEI CHEN, CHEOL HO CHOI, PAUL DAY,
+     ALBERT DEFUSCO, TIM DUDLEY, DMITRI FEDOROV, GRAHAM FLETCHER,
+     MARK FREITAG, KURT GLAESEMANN, DAN KEMP, GRANT MERRILL,
+     NORIYUKI MINEZAWA, JONATHAN MULLIN, TAKESHI NAGATA,
+     SEAN NEDD, HEATHER NETZLOFF, BOSILJKA NJEGIC, RYAN OLSON, MIKE PAK,
+     JIM SHOEMAKER, LYUDMILA SLIPCHENKO, SAROM SOK, JIE SONG,
+     TETSUYA TAKETSUGU, SIMON WEBB, SOOHAENG YOO, FEDERICO ZAHARIEV
+
+  ADDITIONAL CODE HAS BEEN PROVIDED BY COLLABORATORS IN OTHER GROUPS:
+     IOWA STATE UNIVERSITY:
+          JOE IVANIC, LAIMUTIS BYTAUTAS, KLAUS RUEDENBERG
+     UNIVERSITY OF TOKYO: KIMIHIKO HIRAO, TAKAHITO NAKAJIMA,
+          TAKAO TSUNEDA, MUNEAKI KAMIYA, SUSUMU YANAGISAWA,
+          KIYOSHI YAGI, MAHITO CHIBA, SEIKEN TOKURA, NAOAKI KAWAKAMI
+     UNIVERSITY OF AARHUS: FRANK JENSEN
+     UNIVERSITY OF IOWA: VISVALDAS KAIRYS, HUI LI
+     NATIONAL INST. OF STANDARDS AND TECHNOLOGY: WALT STEVENS, DAVID GARMER
+     UNIVERSITY OF PISA: BENEDETTA MENNUCCI, JACOPO TOMASI
+     UNIVERSITY OF MEMPHIS: HENRY KURTZ, PRAKASHAN KORAMBATH
+     UNIVERSITY OF ALBERTA: TOBY ZENG, MARIUSZ KLOBUKOWSKI
+     UNIVERSITY OF NEW ENGLAND: MARK SPACKMAN
+     MIE UNIVERSITY: HIROAKI UMEDA
+     MICHIGAN STATE UNIVERSITY:
+          KAROL KOWALSKI, MARTA WLOCH, JEFFREY GOUR, JESSE LUTZ,
+          WEI LI, PIOTR PIECUCH
+     UNIVERSITY OF SILESIA: MONIKA MUSIAL, STANISLAW KUCHARSKI
+     FACULTES UNIVERSITAIRES NOTRE-DAME DE LA PAIX:
+          OLIVIER QUINET, BENOIT CHAMPAGNE
+     UNIVERSITY OF CALIFORNIA - SANTA BARBARA: BERNARD KIRTMAN
+     INSTITUTE FOR MOLECULAR SCIENCE:
+          KAZUYA ISHIMURA, MICHIO KATOUDA, AND SHIGERU NAGASE
+     UNIVERSITY OF NOTRE DAME: DAN CHIPMAN
+     KYUSHU UNIVERSITY:
+          HARUYUKI NAKANO,
+          FENG LONG GU, JACEK KORCHOWIEC, MARCIN MAKOWSKI, AND YURIKO AOKI,
+          HIROTOSHI MORI AND EISAKU MIYOSHI
+     PENNSYLVANIA STATE UNIVERSITY:
+          TZVETELIN IORDANOV, CHET SWALINA, JONATHAN SKONE,
+          SHARON HAMMES-SCHIFFER
+     WASEDA UNIVERSITY:
+          MASATO KOBAYASHI, TOMOKO AKAMA, TSUGUKI TOUMA,
+          TAKESHI YOSHIKAWA, YASUHIRO IKABATA, HIROMI NAKAI
+     NANJING UNIVERSITY: SHUHUA LI
+     UNIVERSITY OF NEBRASKA:
+          PEIFENG SU, DEJUN SI, NANDUN THELLAMUREGE, YALI WANG, HUI LI
+     UNIVERSITY OF ZURICH:
+          ROBERTO PEVERATI, KIM BALDRIDGE
+     N. COPERNICUS UNIVERSITY AND JACKSON STATE UNIVERSITY:
+          MARIA BARYSZ
+
+
+ PARALLEL VERSION RUNNING ON     2 PROCESSORS IN     1 NODES.
+
+ EXECUTION OF GAMESS BEGUN Thu Apr 10 17:44:48 2014
+
+            ECHO OF THE FIRST FEW INPUT CARDS -
+ INPUT CARD>! template                                                                      
+ INPUT CARD> $tddft  nstate=3 mult=1 iroot=1 tammd=.false. $end                             
+ INPUT CARD> $contrl scftyp=rhf dfttyp=pbe0 tddft=excite mult=1 icharg=1                    
+ INPUT CARD>         runtyp=gradient MOLPLT=.false.  NPRINT=3 $end                          
+ INPUT CARD> $system timlim=4 mwords=100 memddi=200 $end                                    
+ INPUT CARD> $guess  guess=huckel $end                                                      
+ INPUT CARD> $basis  gbasis=N31 ngauss=6 diffsp=.T. ndfunc=1 $end                           
+ INPUT CARD>                                                                                
+ INPUT CARD> $data                                                                          
+ INPUT CARD>CO...excitation to the 3 lowest singlet states                                  
+ INPUT CARD>C1                                                                              
+ INPUT CARD>c            6.0  -2.5270220   0.3259045   0.1846750                            
+ INPUT CARD>n            7.0  -1.1420350   0.1457465   0.0827667                            
+ INPUT CARD>h            1.0  -2.8803009   0.8812482   1.0166599                            
+ INPUT CARD>h            1.0  -3.1260438  -0.1057322  -0.5770699                            
+ INPUT CARD>h            1.0  -0.7577445  -0.3749301  -0.6901240                            
+ INPUT CARD>h            1.0  -0.5308962   0.5370902   0.7825070                            
+ INPUT CARD> $end                                                                           
+ INPUT CARD>                                                                                
+ INPUT CARD>                                                                                
+ INPUT CARD>                                                                                
+ ddikick.x: Sending kill signal to DDI processes.
+ ddikick.x: Execution terminated due to error(s).
+unset echo
+----- accounting info -----
+Files used on the master node eam were:
+-rw-rw-r-- 1 dulikai dulikai     692 Apr 10 17:44 /tmp/dulikai/gamess.F05
+-rw-rw-r-- 1 dulikai dulikai 3420304 Apr 10 17:44 /tmp/dulikai/gamess.F08
+-rw-rw-r-- 1 dulikai dulikai 3420304 Apr 10 17:44 /tmp/dulikai/gamess.F08.001
+-rw-rw-r-- 1 dulikai dulikai 1701440 Apr 10 17:44 /tmp/dulikai/gamess.F10
+-rw-rw-r-- 1 dulikai dulikai 6369960 Apr 10 17:44 /tmp/dulikai/gamess.F22
+-rw-rw-r-- 1 dulikai dulikai 6369960 Apr 10 17:44 /tmp/dulikai/gamess.F22.001
+ls: No match.
+ls: No match.
+ls: No match.
+Thu Apr 10 17:44:49 CST 2014
+0.0u 0.0s 0:01.10 1.8% 0+0k 0+16io 0pf+0w
