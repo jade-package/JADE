@@ -1,0 +1,380 @@
+ --------------------------------------
+ Run the surface hopping dynamics!
+ --------------------------------------
+ 
+ 
+ Initialization
+ Parameters for the dynamics calculations
+  Total time:   8268.15854353914     
+  Time step:   8.26815854353914     
+  The number of time steps:        1000
+ The frequency to save the energy:           1
+ The frequency to save the geometry:           1
+ 
+ The quantum calculations
+ Which methods?           11
+ (1 : MNDO, 2: CASSCF-MOLPRO,...
+  11: TDDFT-Turbomole,...)
+ 
+ which state to start?           3
+ How many states are involved?           3
+Which states are involved?  1;  2;  3;
+  Time step for electronic motions         100
+ Decoherent correction factor  0.100000000000000     
+ Follow the phase of NAC
+ Reject the hops when energy gap is larger than   10.0000000000000      (eV)
+ --------------------------------------
+ Calculate the gradient
+ Time steps:           0
+ Quan-Chem Theory:          11
+ Time steps:           1
+ Quan-Chem Theory:          11
+ Time steps:           2
+ Quan-Chem Theory:          11
+ Time steps:           3
+ Quan-Chem Theory:          11
+ Time steps:           4
+ Quan-Chem Theory:          11
+ Time steps:           5
+ Quan-Chem Theory:          11
+ Time steps:           6
+ Quan-Chem Theory:          11
+ Time steps:           7
+ Quan-Chem Theory:          11
+ Time steps:           8
+ Quan-Chem Theory:          11
+ Time steps:           9
+ Quan-Chem Theory:          11
+ Time steps:          10
+ Quan-Chem Theory:          11
+ Time steps:          11
+ Quan-Chem Theory:          11
+ Time steps:          12
+ Quan-Chem Theory:          11
+ Time steps:          13
+ Quan-Chem Theory:          11
+ Time steps:          14
+ Quan-Chem Theory:          11
+ Time steps:          15
+ Quan-Chem Theory:          11
+ Time steps:          16
+ Quan-Chem Theory:          11
+ Time steps:          17
+ Quan-Chem Theory:          11
+ Time steps:          18
+ Quan-Chem Theory:          11
+ Time steps:          19
+ Quan-Chem Theory:          11
+ Time steps:          20
+ Quan-Chem Theory:          11
+ Possible hop happens at Step          20
+           3 -->           2
+ Check the velocity adjustment
+ Old velocity
+      1        -0.0012555988         0.0001633362         0.0000925607
+      2         0.0010843792        -0.0001410951        -0.0000799791
+      3        -0.0006199467         0.0003305012         0.0004420459
+      4        -0.0007397228        -0.0001532102        -0.0003422979
+      5         0.0005881321        -0.0002383968        -0.0002971304
+      6         0.0006644304         0.0000754866         0.0002058398
+ Check whether the kinetic energy is enough to perform the hop
+ b^2-4ac  8.285347441157838E-006
+ Successful hops!
+ Velocity adjustment
+ Scaling parameter 1:   18.9811937978974     
+ Scaling parameter 2:  -2.22645720715039     
+ Scaling parameter 3:  -2.22645720715039     
+ New velocity
+      1        -0.0013117471         0.0001706403         0.0000966998
+      2         0.0011259606        -0.0001465055        -0.0000830459
+      3        -0.0009503092         0.0005066215         0.0006776072
+      4        -0.0011339126        -0.0002348541        -0.0005247046
+      5         0.0009015410        -0.0003654357        -0.0004554678
+      6         0.0010184977         0.0001157125         0.0003155295
+ Real hop happens at Step          20
+           3 -->           2
+ Time(fs), energy gap (au)   4.00000000000000       5.735888100005582E-003
+ Time steps:          21
+ Quan-Chem Theory:          11
+ Time steps:          22
+ Quan-Chem Theory:          11
+ Time steps:          23
+ Quan-Chem Theory:          11
+ Time steps:          24
+ Quan-Chem Theory:          11
+ Time steps:          25
+ Quan-Chem Theory:          11
+ Time steps:          26
+ Quan-Chem Theory:          11
+ Time steps:          27
+ Quan-Chem Theory:          11
+ Time steps:          28
+ Quan-Chem Theory:          11
+ Time steps:          29
+ Quan-Chem Theory:          11
+ Time steps:          30
+ Quan-Chem Theory:          11
+ Time steps:          31
+ Quan-Chem Theory:          11
+ Time steps:          32
+ Quan-Chem Theory:          11
+ Time steps:          33
+ Quan-Chem Theory:          11
+ Time steps:          34
+ Quan-Chem Theory:          11
+ Time steps:          35
+ Quan-Chem Theory:          11
+ Time steps:          36
+ Quan-Chem Theory:          11
+ Time steps:          37
+ Quan-Chem Theory:          11
+ Time steps:          38
+ Quan-Chem Theory:          11
+ Time steps:          39
+ Quan-Chem Theory:          11
+ Time steps:          40
+ Quan-Chem Theory:          11
+ Time steps:          41
+ Quan-Chem Theory:          11
+ Time steps:          42
+ Quan-Chem Theory:          11
+ Time steps:          43
+ Quan-Chem Theory:          11
+ Time steps:          44
+ Quan-Chem Theory:          11
+ Time steps:          45
+ Quan-Chem Theory:          11
+ Time steps:          46
+ Quan-Chem Theory:          11
+ Time steps:          47
+ Quan-Chem Theory:          11
+ Time steps:          48
+ Quan-Chem Theory:          11
+ Time steps:          49
+ Quan-Chem Theory:          11
+ Time steps:          50
+ Quan-Chem Theory:          11
+ Time steps:          51
+ Quan-Chem Theory:          11
+ Time steps:          52
+ Quan-Chem Theory:          11
+ Time steps:          53
+ Quan-Chem Theory:          11
+ Time steps:          54
+ Quan-Chem Theory:          11
+ Time steps:          55
+ Quan-Chem Theory:          11
+ Time steps:          56
+ Quan-Chem Theory:          11
+ Time steps:          57
+ Quan-Chem Theory:          11
+ Time steps:          58
+ Quan-Chem Theory:          11
+ Time steps:          59
+ Quan-Chem Theory:          11
+ Time steps:          60
+ Quan-Chem Theory:          11
+ Time steps:          61
+ Quan-Chem Theory:          11
+ Time steps:          62
+ Quan-Chem Theory:          11
+ Time steps:          63
+ Quan-Chem Theory:          11
+ Time steps:          64
+ Quan-Chem Theory:          11
+ Time steps:          65
+ Quan-Chem Theory:          11
+ Time steps:          66
+ Quan-Chem Theory:          11
+ Time steps:          67
+ Quan-Chem Theory:          11
+ Time steps:          68
+ Quan-Chem Theory:          11
+ Time steps:          69
+ Quan-Chem Theory:          11
+ Time steps:          70
+ Quan-Chem Theory:          11
+ Time steps:          71
+ Quan-Chem Theory:          11
+ Time steps:          72
+ Quan-Chem Theory:          11
+ Time steps:          73
+ Quan-Chem Theory:          11
+ Time steps:          74
+ Quan-Chem Theory:          11
+ Time steps:          75
+ Quan-Chem Theory:          11
+ Time steps:          76
+ Quan-Chem Theory:          11
+ Time steps:          77
+ Quan-Chem Theory:          11
+ Time steps:          78
+ Quan-Chem Theory:          11
+ Time steps:          79
+ Quan-Chem Theory:          11
+ Time steps:          80
+ Quan-Chem Theory:          11
+ Time steps:          81
+ Quan-Chem Theory:          11
+ Time steps:          82
+ Quan-Chem Theory:          11
+ Time steps:          83
+ Quan-Chem Theory:          11
+ Time steps:          84
+ Quan-Chem Theory:          11
+ Time steps:          85
+ Quan-Chem Theory:          11
+ Time steps:          86
+ Quan-Chem Theory:          11
+ Time steps:          87
+ Quan-Chem Theory:          11
+ Time steps:          88
+ Quan-Chem Theory:          11
+ Time steps:          89
+ Quan-Chem Theory:          11
+ Time steps:          90
+ Quan-Chem Theory:          11
+ Time steps:          91
+ Quan-Chem Theory:          11
+ Time steps:          92
+ Quan-Chem Theory:          11
+ Possible hop happens at Step          92
+           2 -->           3
+ Check the velocity adjustment
+ Old velocity
+      1        -0.0008015868         0.0001222008         0.0000477756
+      2         0.0007385501        -0.0000802800        -0.0000640903
+      3        -0.0007929273         0.0000741965         0.0002675276
+      4        -0.0008359344        -0.0000810339        -0.0000120477
+      5         0.0004079091        -0.0000736407         0.0001886563
+      6         0.0003633307        -0.0002408525        -0.0001117473
+ Check whether the kinetic energy is enough to perform the hop
+ b^2-4ac  2.600997285722606E-006
+ Successful hops!
+ Velocity adjustment
+ Scaling parameter 1:   9.76881085523517     
+ Scaling parameter 2:  0.378278922748985     
+ Scaling parameter 3:  0.378278922748985     
+ New velocity
+      1        -0.0007936396         0.0001209893         0.0000473020
+      2         0.0007322713        -0.0000795975        -0.0000635455
+      3        -0.0006992474         0.0000654306         0.0002359207
+      4        -0.0007371734        -0.0000714602        -0.0000106243
+      5         0.0003597169        -0.0000649405         0.0001663676
+      6         0.0003204052        -0.0002123971        -0.0000985450
+ Real hop happens at Step          92
+           2 -->           3
+ Time(fs), energy gap (au)   18.4000000000000      -6.346489999913274E-004
+ Time steps:          93
+ Quan-Chem Theory:          11
+ Time steps:          94
+ Quan-Chem Theory:          11
+ Time steps:          95
+ Quan-Chem Theory:          11
+ Time steps:          96
+ Quan-Chem Theory:          11
+ Time steps:          97
+ Quan-Chem Theory:          11
+ Time steps:          98
+ Quan-Chem Theory:          11
+ Time steps:          99
+ Quan-Chem Theory:          11
+ Time steps:         100
+ Quan-Chem Theory:          11
+ Time steps:         101
+ Quan-Chem Theory:          11
+ Time steps:         102
+ Quan-Chem Theory:          11
+ Time steps:         103
+ Quan-Chem Theory:          11
+ Time steps:         104
+ Quan-Chem Theory:          11
+ Time steps:         105
+ Quan-Chem Theory:          11
+ Time steps:         106
+ Quan-Chem Theory:          11
+ Possible hop happens at Step         106
+           3 -->           2
+ Check the velocity adjustment
+ Old velocity
+      1        -0.0006295428         0.0000715914         0.0000524549
+      2         0.0005543591        -0.0000762134        -0.0000381666
+      3        -0.0004012688        -0.0002698403        -0.0006184616
+      4        -0.0002166564         0.0004878257         0.0005795521
+      5         0.0002035192         0.0000738705         0.0000620729
+      6         0.0001751851        -0.0000337421        -0.0001440684
+ Check whether the kinetic energy is enough to perform the hop
+ b^2-4ac  7.798074845537485E-006
+ Successful hops!
+ Velocity adjustment
+ Scaling parameter 1:   11.4490484251071     
+ Scaling parameter 2:  -3.67644388152655     
+ Scaling parameter 3:  -3.67644388152655     
+ New velocity
+      1        -0.0007032100         0.0000799688         0.0000585930
+      2         0.0006099844        -0.0000838608        -0.0000419963
+      3        -0.0009608139        -0.0006461162        -0.0014808689
+      4        -0.0005187707         0.0011680691         0.0013877024
+      5         0.0004873143         0.0001768785         0.0001486298
+      6         0.0004194702        -0.0000807935        -0.0003449631
+ Real hop happens at Step         106
+           3 -->           2
+ Time(fs), energy gap (au)   21.2000000000000       7.771082399997908E-003
+ Time steps:         107
+ Quan-Chem Theory:          11
+ Time steps:         108
+ Quan-Chem Theory:          11
+ Time steps:         109
+ Quan-Chem Theory:          11
+ Time steps:         110
+ Quan-Chem Theory:          11
+ Time steps:         111
+ Quan-Chem Theory:          11
+ Time steps:         112
+ Quan-Chem Theory:          11
+ Time steps:         113
+ Quan-Chem Theory:          11
+ Time steps:         114
+ Quan-Chem Theory:          11
+ Time steps:         115
+ Quan-Chem Theory:          11
+ Time steps:         116
+ Quan-Chem Theory:          11
+ Time steps:         117
+ Quan-Chem Theory:          11
+ Time steps:         118
+ Quan-Chem Theory:          11
+ Time steps:         119
+ Quan-Chem Theory:          11
+ Time steps:         120
+ Quan-Chem Theory:          11
+ Time steps:         121
+ Quan-Chem Theory:          11
+ Time steps:         122
+ Quan-Chem Theory:          11
+ Time steps:         123
+ Quan-Chem Theory:          11
+ Time steps:         124
+ Quan-Chem Theory:          11
+ Time steps:         125
+ Quan-Chem Theory:          11
+ Time steps:         126
+ Quan-Chem Theory:          11
+ Time steps:         127
+ Quan-Chem Theory:          11
+ Time steps:         128
+ Quan-Chem Theory:          11
+ Time steps:         129
+ Quan-Chem Theory:          11
+ Time steps:         130
+ Quan-Chem Theory:          11
+ Time steps:         131
+ Quan-Chem Theory:          11
+ Time steps:         132
+ Quan-Chem Theory:          11
+ Time steps:         133
+ Quan-Chem Theory:          11
+ Time steps:         134
+ Quan-Chem Theory:          11
+ Time steps:         135
+ Quan-Chem Theory:          11

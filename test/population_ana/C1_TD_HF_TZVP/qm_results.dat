@@ -1,0 +1,75 @@
+-----------------------------------------  
+Summary of QM calculations: 
+-----------------------------------------  
+The electronic calculations focus on 8 states: 
+S0   ..   S1   ..   S2   ..   S3   ..   S4   ..   S5   ..   S6   ..   S7   ..   
+ -----------------------------------------  
+Basis information: 
+Functional: 0(pure), 1 (hybrid),  2 (pure+ TDA) , 3 (hybrid + TDA):  1  
+-----------------------------------------  
+Molecular system:   48  (total number of atom) 
+Atom,   Number of basis functions: 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+c        19 
+h        6 
+h        6 
+h        6 
+h        6 
+h        6 
+h        6 
+h        6 
+h        6 
+h        6 
+h        6 
+h        6 
+h        6 
+h        6 
+h        6 
+h        6 
+h        6 
+h        6 
+h        6 
+-----------------------------------------  
+Total number of basis functions: 678  
+Total number of occupied orbitals: 99  
+Total number of unoccupied orbitals: 579  
+Total number of electronic states: 8  
+-----------------------------------------  
+Energy of electronic states: 
+S0   -1146.734210168000  
+S1   -1146.571319367074  
+S2   -1146.554355386256  
+S3   -1146.536814807494  
+S4   -1146.532169211951  
+S5   -1146.529232627104  
+S6   -1146.522284814717  
+S7   -1146.521984862974  
+-----------------------------------------  

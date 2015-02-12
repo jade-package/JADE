@@ -1,0 +1,21 @@
+28                  read (*,*) n_atom
+78                  read (*,*) n_mode
+                    read (*,*)
+1                   read (*,*) label_random
+20000               read (*,*) nr
+50                  read (*,*) nbin
+                    read (*,*)
+1                   read (*,*) label_read_vib
+2                   read (*,*)  label_es_output
+force.dat           read (*,*)  filename_es_output
+                    read (*,*)
+1                   read (*,*) label_displacement
+                    read (*,*)
+1                   read (*,*) label_dis_wigner
+100                 read (*,*) n_geom
+1                   read (*,*) label_method
+                    read (*,*)
+0                   read (*,*) label_frozen
+1                   read (*,*) number_frozen 
+1                   read (*,*) list_frozen
+

@@ -78,7 +78,7 @@ ${EXE}: ${ARCHI} ${MAIN}
 	${F90C}  -o  $@ ${F90FLAGS} ${MAIN} ${ARCHI} ${LIB} ${AUXLIB} 
 
 install: ${EXE} 
-	mv ${EXE} ../bin/jade.exe
+	mv ${EXE} ../../bin/jade.exe
 	${RM} *.o *.mod
 
 clean:

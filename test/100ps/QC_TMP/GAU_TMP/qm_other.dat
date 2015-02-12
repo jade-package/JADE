@@ -1,0 +1,20 @@
+ Charge=              1.0000 electrons
+ Dipole moment (field-independent basis, Debye):
+    X=             -8.1272    Y=              1.0684    Z=              0.6973  Tot=              8.2268
+ Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=              8.9915   YY=            -10.0696   ZZ=             -8.7904
+   XY=             -2.3377   XZ=             -1.2767   YZ=              2.5957
+ Traceless Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=             12.2810   YY=             -6.7801   ZZ=             -5.5009
+   XY=             -2.3377   XZ=             -1.2767   YZ=              2.5957
+ Octapole moment (field-independent basis, Debye-Ang**2):
+  XXX=              5.3944  YYY=             -7.4776  ZZZ=             -4.4057  XYY=             18.3336
+  XXY=              3.6740  XXZ=              1.6475  XZZ=             16.6238  YZZ=             -1.5764
+  YYZ=             -0.6386  XYZ=             -4.1284
+ Hexadecapole moment (field-independent basis, Debye-Ang**3):
+ XXXX=           -112.1429 YYYY=            -16.9953 ZZZZ=            -15.5973 XXXY=              0.1786
+ XXXZ=              3.0565 YYYX=             15.0912 YYYZ=             -2.1936 ZZZX=              8.7434
+ ZZZY=             -1.4599 XXYY=            -41.9777 XXZZ=            -38.0065 YYZZ=             -4.1736
+ XXYZ=              8.6993 YYXZ=              0.9969 ZZXY=              2.9672
+------------------------------------------------------------- 
+------------------------------------------------------------- 

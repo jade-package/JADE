@@ -1,0 +1,6 @@
+
+JADE_PATH=`pwd`
+
+export PATH=${JADE_PATH}/../ci_overlap:$PATH
+export PATH=${JADE_PATH}/../sampling
+

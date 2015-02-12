@@ -1,0 +1,32 @@
+{
+  "control": {
+    "n_sav_stat": "1", 
+    "hop_e": "10", 
+    "label_nac_phase": "1", 
+    "label_reject_hops": "1", 
+    "dtime": "0.2", 
+    "i_state": "3", 
+    "cor_dec": "0.1", 
+    "md_state_list": "1  2  3", 
+    "label_restart": "0", 
+    "dyn_method": "201", 
+    "n_state": "3", 
+    "seed_random": "2014", 
+    "ntime_ele": "100", 
+    "label_read_velocity": "0", 
+    "qm_method": "11", 
+    "ntime": "1000", 
+    "n_sav_traj": "1"
+  }, 
+  "quantum": {
+    "ci_td_use_file_type": "log", 
+    "ci_assign_problem": "X+Y", 
+    "is_do_cis_casida": "yes", 
+    "qm_method": "11", 
+    "qm_package": "103"
+  }, 
+  "langevin": {
+    "temperature": "300.0", 
+    "gamma0": "0.001"
+  }
+}

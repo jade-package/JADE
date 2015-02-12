@@ -1,0 +1,393 @@
+ TURBODIR
+ /home_soft/soft/x86_64/apps/TURBOMOLE/LICENSE/turbo_license.ctd                                                                                                                                         
+ Checking license file: /home_soft/soft/x86_64/apps/TURBOMOLE/LICENSE/turbo_license.ctd
+==========================================================
+                  license information 
+   Version: V5.10                                                  
+   Date: 13/05/09                                                  
+   Licensee:                                                       
+     Dr. Huang Ye                                                  
+     Computer Network Information Center, CAS                      
+     4 South Zhongguancun Street, Haidian, Beijing, CHINA          
+   Nodes: 1189                                                     
+==========================================================
+ operating system is UNIX !
+ hostname is         T3601
+
+   ----> a dscf INTEGRAL TASK STATISTICS run will be performed ! <----
+
+
+ dscf(T3601) : TURBOMOLE V5-10 15 Jan 2008 at 16:44:58
+ Copyright (C) 2008 University of Karlsruhe
+
+
+    2012-08-16 19:33:24.432 
+
+
+
+                             d s c f - program
+
+                   idea & directorship : reinhart ahlrichs
+                   program development : marco haeser
+                                         michael baer
+                           dft version : oliver treutler
+
+
+                          quantum chemistry group
+                          universitaet  karlsruhe
+                                  germany
+
+
+
+
+                          References             
+                                                 
+          TURBOMOLE:                             
+              R. Ahlrichs, M. Baer, M. Haeser, H. Horn, and
+              C. Koelmel
+              Electronic structure calculations on workstation
+              computers: the program system TURBOMOLE
+              Chem. Phys. Lett. 162: 165 (1989)
+          Density Functional:                              
+              O. Treutler and R. Ahlrichs                      
+              Efficient Molecular Numerical Integration Schemes
+              J. Chem. Phys. 102: 346 (1995)                   
+          Parallel Version:                                
+              Performance of parallel TURBOMOLE for Density    
+              Functional Calculations                          
+              M. v. Arnim and R. Ahlrichs                      
+              J. Comp. Chem. 19: 1746 (1998)                   
+                                         
+
+
+
+
+              +--------------------------------------------------+
+              | Atomic coordinate, charge and isotop information |
+              +--------------------------------------------------+
+
+
+              atomic coordinates              atom shells charge pseudo isotop
+    -0.41980656    2.74499427    0.00018708    c      6    6.000    0     0
+     1.57753248    0.93955320    0.00034393    c      6    6.000    0     0
+     1.02286369   -1.59132560   -0.00009260    c      6    6.000    0     0
+    -1.29694964   -2.67444511   -0.00005669    n      6    7.000    0     0
+    -3.15968345   -1.07389765   -0.00004535    c      6    6.000    0     0
+    -2.79982091    1.47877914    0.00008315    n      6    7.000    0     0
+     4.18571432    1.27767443   -0.00003590    n      6    7.000    0     0
+     5.15061443   -0.96162899    0.00006992    c      6    6.000    0     0
+     3.27335429   -2.81394473    0.00000000    n      6    7.000    0     0
+    -5.55611764   -1.92439559   -0.00027023    n      6    7.000    0     0
+    -0.39015297    5.03448317   -0.00028535    o      6    8.000    0     0
+     7.10483746   -1.42331756    0.00020598    h      3    1.000    0     0
+     3.49473955   -4.68148033   -0.00038361    h      3    1.000    0     0
+    -4.28165008    2.65195169   -0.00073321    h      3    1.000    0     0
+    -7.05112009   -0.78609039    0.00326545    h      3    1.000    0     0
+    -5.81798463   -3.78876401   -0.00091085    h      3    1.000    0     0
+
+
+     center of nuclear mass  :    0.04321477    0.05247304   -0.00000970
+
+     center of nuclear charge:   -0.00000019    0.00000017   -0.00000024
+
+
+              +--------------------------------------------------+
+              |               basis set information              |
+              +--------------------------------------------------+
+
+
+              we will work with the  1s 3p 5d  7f  9g ... basis set
+              ...i.e. with spherical basis functions...
+
+
+   type   atoms  prim   cont   basis
+   ---------------------------------------------------------------------------
+    c        5     24     14   def2-SVP   [3s2p1d|7s4p1d]
+    n        5     24     14   def2-SVP   [3s2p1d|7s4p1d]
+    o        1     24     14   def2-SVP   [3s2p1d|7s4p1d]
+    h        5      7      5   def2-SVP   [2s1p|4s1p]
+   ---------------------------------------------------------------------------
+   total:   16    299    179
+   ---------------------------------------------------------------------------
+
+   total number of primitive shells          :   41
+   total number of contracted shells         :   81
+   total number of cartesian basis functions :  190
+   total number of SCF-basis functions       :  179
+
+
+ integral neglect threshold       :  0.18E-09
+ integral storage threshold THIZE :  0.10E-04
+ integral storage threshold THIME :         5
+
+
+ symmetry group of the molecule :   c1 
+
+ the group has the following generators :
+   c1(z)
+
+    1 symmetry operations found
+
+ there are 1 real representations :   a   
+
+ maximum number of shells which are related by symmetry :  1
+
+
+    mo occupation :
+   irrep   mo's   occupied
+    a      179       39
+
+ number of basis functions   :           179
+ number of occupied orbitals :            39
+
+
+
+ this is the statistics output provided by subroutine count
+ concerning the number of batches and integrals to be evaluated or stored .
+ the integral evaluation threshold is "scftol",
+ the integral storage threshold is "thize",
+ and the integral storage threshold concerning
+ the integral evaluation cost is "thime" .
+
+ using the roothaan upper bond for estimating the values of
+ two-electron integrals the number of contributing batches (integrals) is 
+ for thr = 0.18E-09 :            4 (           117) millions,
+ approximate number of non-symmetry redundant batches (integrals) : 
+                                 6 (           174) millions.
+
+
+ the following table gives the number of stored batches (integrals)
+ as a function of THIZE and THIME :
+  THIZE  :          0.10E-03               0.10E-04               0.10E-05
+  THIME  *********************************************************************
+   45      186997(   1493818)     248518(   1938574)     318721(   2456810)
+   40      186997(   1493818)     248518(   1938574)     318721(   2456810)
+   35      243401(   1590690)     324456(   2068380)     413837(   2618658)
+   30      330339(   3552276)     440637(   4661046)     558618(   5802219)
+   25      351258(   4669689)     466069(   5984985)     588769(   7355196)
+   20      430933(   4876554)     571292(   6258262)     719098(   7693953)
+   18      520985(   7156614)     685797(   9157909)     856561(  11153949)
+   16      520985(   7156614)     685797(   9157909)     856561(  11153949)
+   14      572625(   7921332)     754713(  10166353)     943208(  12392307)
+   12      654908(   8168181)     858131(  10476607)    1066284(  12761535)
+   10      759364(  11121108)     994566(  14299915)    1232976(  17384601)
+    9      844375(  16469487)    1099329(  20643358)    1356841(  24712443)
+    8      844375(  16469487)    1099329(  20643358)    1356841(  24712443)
+    7      883011(  16508123)    1146869(  20690898)    1411680(  24767282)
+    6     1161438(  25306604)    1491503(  31567164)    1815432(  37466876)
+    5     1169913(  25535429)    1502295(  31858548)    1827983(  37805753)
+    4     1256689(  25795757)    1607485(  32174118)    1948054(  38165966)
+    3     1431129(  38110061)    1819730(  46715346)    2193292(  54704369)
+    2     1704069(  48935945)    2149444(  59799285)    2569666(  69633425)
+    1     1769006(  59417696)    2224400(  71926227)    2653102(  83164853)
+
+   for the actual (scftol,thime,thize)-combination
+   the file space required for the 2e integrals
+   is about   ---->        248894  kbytes  <----  !
+
+
+ <dtasks> : still too many parallelized dscf tasks !
+  mxtask   = 400
+  i,jshell =  43  9 (running from  81 --> 1)
+  costs already distributed :          981758380.7
+               (total costs :         1111908270.9)
+  safety factor is     1.000
+  ... and will be increased now to     1.233 !
+
+ <dtasks> : still too many parallelized dscf tasks !
+  mxtask   = 400
+  i,jshell =  14  5 (running from  81 --> 1)
+  costs already distributed :         1109710044.1
+               (total costs :         1111908270.9)
+  safety factor is     1.233
+  ... and will be increased now to     1.358 !
+
+   after task assignment :
+         resulting number of tasks =       136
+                     dynamic tasks =        78
+             number of shell pairs =      3321
+
+      WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+      WARNING                                                 WARNING
+      WARNING   for data group $2e-ints_shell_statistics an   WARNING
+      WARNING external file reference is highly recommended ! WARNING
+      WARNING   writing data onto default file 'metastase'    WARNING
+      WARNING                                                 WARNING
+      WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+
+   2e-ints shell statistics (resolved for outermost shell pairs)
+         ij shells         c(ij|kl)     n(disc)   n(direct)
+       ('-'i shell indices denote 'dynamic' parallel tasks)
+     --------------------------------------------------------
+       81     4 ... 81       26165917     1592178     8933286                  
+       80    16 ... 80       25273974     1676406     7938798                  
+       79    26 ... 79       24128004     1893174     7908936                  
+       78    23 ... 78       23613486     1707270     6627228                  
+       77    25 ... 77       22880107     1592910     6366300                  
+       76    39 ... 76       22428878     1856646     5614620                  
+       75    40 ... 75       21609954     1748754     4916934                  
+       74    38 ... 74       20774346     1534314     4323318                  
+       73     1 ... 38       20162594      697290     1052322                  
+       73    39 ... 73       20142267     1562154     3615984                  
+       72    37 ... 72       19528593     1486950     2859474                  
+       72     1 ... 36       19060936      618438      915984                  
+       71    33 ... 71       18947937     1232904     2446380                  
+       75     1 ... 39       18019567      675678     1244238                  
+       68     2 ... 68       17992181      374922     1244829                  
+       76     1 ... 38       17357797      626442     1366422                  
+       65    19 ... 65       16679438      382218     1029867                  
+       67     1 ... 67       16440348      337626     1166910                  
+       74     1 ... 37       16075655      560058     1100682                  
+       64    32 ... 64       15961652      379773      492063                  
+       63    17 ... 63       15462171      356370      828477                  
+       62    36 ... 62       15362830      346980      376131                  
+       70     1 ... 70       15079636      289278     1267173                  
+       69     1 ... 69       14961871      293655     1171263                  
+       62     1 ... 35       14775504      129159      161604                  
+       61    23 ... 61       14415906      370989      602385                  
+       60     9 ... 35       14133291      133785      106965                  
+       60    36 ... 60       14092588      383172      279237                  
+       64     1 ... 31       14071055      126732      167427                  
+       71     1 ... 32       14070849      441180      697722                  
+       66     1 ... 66       13549613      281436      897462                  
+       59    23 ... 59       13026169      302625      483375                  
+       79     1 ... 25       13013918      506136     1142010                  
+       58    34 ... 58       12917176      281955      246105                  
+       58     7 ... 33       12793868      117327       87489                  
+       57    20 ... 57       12538507      265434      379509                  
+       56    31 ... 56       12106280      226632      201972                  
+       56     6 ... 30       11637280       97158       75840                  
+       77     1 ... 24       11597886      465654      925260                  
+       55    23 ... 55       11240693      225936      268920                  
+       54    36 ... 54       11077176      235800       87660                  
+       54    12 ... 35       10700696       79803       66015                  
+       53    23 ... 53       10364138      186648      191055                  
+       61     1 ... 22       10293026      130947      145815                  
+       52    36 ... 52        9918852      176625       60993                  
+       78     1 ... 22        9883457      400062      828432                  
+       52    12 ... 35        9872734       70908       49458                  
+       59     1 ... 22        9769208      117957      124935                  
+       51    22 ... 51        9491644      137043      145848                  
+       50    31 ... 50        8977771      115953       58662                  
+       55     1 ... 22        8777941       96132       86229                  
+       50    11 ... 30        8737390       52902       39870                  
+       49    22 ... 49        8686232      108426       94638                  
+       53     1 ... 22        8376704       85608       69345                  
+       48    30 ... 48        8370464       80961       43410                  
+       65     1 ... 18        8287955       98223      178821                  
+       48    13 ... 29        8110160       43203       25944                  
+       47    20 ... 47        7895552       74838       70011                  
+      -57     1 ... 19        7834854           0      181410                  
+      -63     1 ... 16        7739029           0      224151                  
+      -46    28 ... 46        7421132           0       80112                  
+      -46    12 ... 27        7396826           0       53094                  
+      -45    18 ... 45        7383317           0       98121                  
+      -51     1 ... 21        7243811           0      122958                  
+      -44    24 ... 44        7089951           0       51099                  
+      -44     6 ... 23        6925797           0       41217                  
+      -49     1 ... 21        6915105           0      101097                  
+      -43    20 ... 43        6704528           0       16677                  
+      -54     1 ... 11        6550557           0       80667                  
+      -52     1 ... 11        6459314           0       69072                  
+      -42    16 ... 42        6376134           0       11069                  
+      -48     1 ... 12        6329067           0       50817                  
+      -80     1 ... 15        6003534           0      947550                  
+      -47     1 ... 19        5977134           0       72228                  
+      -43     1 ... 19        5957472           0       13755                  
+      -41    17 ... 41        5902548           0       15048                  
+      -39    17 ... 39        5670321           0       13923                  
+      -40    14 ... 40        5587115           0        9847                  
+      -46     1 ... 11        5360888           0       35925                  
+      -37    15 ... 37        5297642           0       12656                  
+      -38    15 ... 38        5266371           0        9409                  
+      -50     1 ... 10        5192802           0       49284                  
+      -36    12 ... 36        5143314           0        9107                  
+      -60     1 ... 8         5009654           0       81150                  
+      -35    10 ... 35        4879117           0       11853                  
+      -45     1 ... 17        4801866           0       49083                  
+      -41     1 ... 16        4737809           0       10741                  
+      -34     6 ... 34        4634097           0        8304                  
+      -39     1 ... 16        4533765           0       10022                  
+      -33     6 ... 33        4470355           0       11169                  
+      -42     1 ... 15        4304661           0        7878                  
+      -38     1 ... 14        4126741           0        7272                  
+      -30     2 ... 30        4085047           0        9966                  
+      -27     1 ... 27        3830938           0        8625                  
+      -31     1 ... 31        3810120           0        6062                  
+      -58     1 ... 6         3478037           0       54369                  
+      -37     1 ... 14        3382920           0        7691                  
+      -56     1 ... 5         3342172           0       43392                  
+      -32     1 ... 32        3267621           0        8642                  
+      -40     1 ... 13        2986983           0        5575                  
+      -25     1 ... 25        2936906           0        4558                  
+      -28     1 ... 28        2888605           0        4565                  
+      -26     1 ... 26        2793407           0        6609                  
+      -24     1 ... 24        2716893           0        6097                  
+      -29     1 ... 29        2669359           0        6779                  
+      -36     1 ... 11        2615955           0        4715                  
+      -81     1 ... 3         2483258           0      271440                  
+      -44     1 ... 5         2330282           0       12255                  
+      -23     1 ... 23        1962216           0        4609                  
+      -35     1 ... 9         1867308           0        4345                  
+      -21     1 ... 21        1864306           0        4160                  
+      -22     1 ... 22        1723899           0        2664                  
+      -18     1 ... 18        1290808           0        2763                  
+      -20     1 ... 20        1247002           0        2963                  
+      -19     1 ... 19        1165142           0        1780                  
+      -17     1 ... 17        1070640           0        2279                  
+      -33     1 ... 5         1020377           0        2205                  
+      -16     1 ... 16        1002350           0        1514                  
+      -68     1 ... 1          817485           0       17055                  
+      -34     1 ... 5          783351           0        1505                  
+      -15     1 ... 15         752860           0        1605                  
+      -14     1 ... 14         615327           0        1284                  
+      -13     1 ... 13         523233           0         786                  
+      -12     1 ... 12         393047           0         833                  
+      -11     1 ... 11         299637           0         623                  
+      -10     1 ... 10         252172           0         377                  
+      -30     1 ... 1          207957           0         340                  
+       -9     1 ... 9          172910           0         360                  
+       -8     1 ... 8          127828           0         251                  
+       -7     1 ... 7           98608           0         144                  
+       -6     1 ... 6           53991           0         111                  
+       -5     1 ... 5           34878           0          65                  
+       -4     1 ... 4           23032           0          33                  
+       -3     1 ... 3            7257           0          15                  
+       -2     1 ... 2            2947           0           5                  
+       -1     1 ... 1             748           0           1                  
+
+     --------------------------------------------------------
+   estimated total costs             =    1111.91 sec
+   total number of ints to be stored =     30469737
+
+   for parallelized dscf runs the total file
+   space required for the 2e integrals is about
+        ---->        238044  kbytes  <----  !
+
+
+   ***  $2e-ints_shell_statistics written to file <metastase>  ***
+
+ time needed for dscf task setup     :      0.015 seconds
+
+ $statistics flag 'dscf parallel' will be switched off !
+
+
+ time needed for integral statistics :      0.151 seconds
+
+
+   end of statistics output by subroutine count .
+                     ***
+
+
+
+    ------------------------------------------------------------------------
+         total  cpu-time :   0.39 seconds
+         total wall-time :   0.39 seconds
+    ------------------------------------------------------------------------
+
+
+   ****  dscf : all done  ****
+
+
+    2012-08-16 19:33:24.814 
+

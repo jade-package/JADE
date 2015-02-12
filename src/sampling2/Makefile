@@ -61,7 +61,7 @@ ${EXE}: ${ARCHI} ${MAIN}
 
 install: ${EXE} 
 	cp ${EXE} sampling.x
-	mv ${EXE} ../bin/sampling2.x
+	mv ${EXE} ../../bin/sampling2.x
 	${RM} *.o
 
 

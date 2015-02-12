@@ -1,0 +1,389 @@
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ ---------------------------------------
+ Generate two sets of random numbers from 2D Gaussian distribution 
+ Generate the first set of random number from the uniform distribution [0,1) 
+ Generate the second set of random number from the uniform distribution [0,1)
+ ---------------------------------------
+ Check two sets of random numbers
+ Norm is   1.00000000000000     
+ Norm is   1.00000000000000     
+   1.00000000000000     
+ ---------------------------------------
+ 
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ ----------------------------------------
+ The number of atoms          15
+ The number of normal modes          39
+ ----------------------------------------
+ Begin to read the normal modes
+ The number of atoms are          15
+ The number of normal mode are          39
+ Begin to read frequency of each mode
+ Begin to read reduced mass
+ Begin to Read normal mode
+ Finished!!!
+ End to read the normal modes
+ ----------------------------------------
+ Construct dimensionless normal coordinates
+ ----------------------------------------
+ 
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ ----------------------------------------
+ Make the displacements along all mode -2<Q<2
+ ----------------------------------------
+ 
+ 
+ ----------------------------------------
+ Make the displacements of Q and P from  Wigner distributions
+ 
+ ----------------------------------------
+ No mode is frozen
+ ----------------------------------------
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ The average energy for v=0 
+ This energy should be half of sum of all frequencies over all modes!
+ 
+ The eigenenergy of v=0 (cm-1)   25443.6446000000     
+ The kinetic energy of v=0 (cm-1)   12721.8223000000     
+ The kinetic energy of v=0 (eV)   1.57731004911339     
+ 
+ Warning: please note that the energya of v=0 here should be DIFFERENT to 
+ the below average kinetic and potential energy by counting all modes  if some m
+ odes are frozen !!!!!!!!!
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ The average potential energy in dimensionaless normal coordinates
+ 
+ Mode           1
+ Frequency   105.223900000000     
+ Average potential energy (cm-1)   26.8453552023950     
+ Average potential energy (eV)  3.328410626577941E-003
+ Mode           2
+ Frequency   153.601700000000     
+ Average potential energy (cm-1)   40.1464922025429     
+ Average potential energy (eV)  4.977546777062227E-003
+ Mode           3
+ Frequency   257.984300000000     
+ Average potential energy (cm-1)   60.2803537708312     
+ Average potential energy (eV)  7.473835550025142E-003
+ Mode           4
+ Frequency   352.077200000000     
+ Average potential energy (cm-1)   89.0589250998434     
+ Average potential energy (eV)  1.104193520477173E-002
+ Mode           5
+ Frequency   384.231300000000     
+ Average potential energy (cm-1)   101.556603076665     
+ Average potential energy (eV)  1.259145480963397E-002
+ Mode           6
+ Frequency   414.491400000000     
+ Average potential energy (cm-1)   108.208154299635     
+ Average potential energy (eV)  1.341614472738134E-002
+ Mode           7
+ Frequency   418.818500000000     
+ Average potential energy (cm-1)   106.025235497853     
+ Average potential energy (eV)  1.314549641291387E-002
+ Mode           8
+ Frequency   464.522500000000     
+ Average potential energy (cm-1)   113.874826791960     
+ Average potential energy (eV)  1.411872484966292E-002
+ Mode           9
+ Frequency   498.232200000000     
+ Average potential energy (cm-1)   118.427642566888     
+ Average potential energy (eV)  1.468320389238269E-002
+ Mode          10
+ Frequency   559.492400000000     
+ Average potential energy (cm-1)   148.326766069622     
+ Average potential energy (eV)  1.839023476016530E-002
+ Mode          11
+ Frequency   563.296600000000     
+ Average potential energy (cm-1)   137.585688351081     
+ Average potential energy (eV)  1.705850653568271E-002
+ Mode          12
+ Frequency   663.950200000000     
+ Average potential energy (cm-1)   164.042214810893     
+ Average potential energy (eV)  2.033870838614362E-002
+ Mode          13
+ Frequency   717.137000000000     
+ Average potential energy (cm-1)   183.368430661860     
+ Average potential energy (eV)  2.273486152790422E-002
+ Mode          14
+ Frequency   726.581300000000     
+ Average potential energy (cm-1)   172.322438057022     
+ Average potential energy (eV)  2.136532855321056E-002
+ Mode          15
+ Frequency   824.536100000000     
+ Average potential energy (cm-1)   187.288336540788     
+ Average potential energy (eV)  2.322086949033361E-002
+ Mode          16
+ Frequency   837.103800000000     
+ Average potential energy (cm-1)   215.649131611598     
+ Average potential energy (eV)  2.673717132281835E-002
+ Mode          17
+ Frequency   853.123000000000     
+ Average potential energy (cm-1)   238.352689260179     
+ Average potential energy (eV)  2.955206283641322E-002
+ Mode          18
+ Frequency   957.689300000000     
+ Average potential energy (cm-1)   258.025604140779     
+ Average potential energy (eV)  3.199120131868252E-002
+ Mode          19
+ Frequency   958.852100000000     
+ Average potential energy (cm-1)   247.298270646294     
+ Average potential energy (eV)  3.066117716632185E-002
+ Mode          20
+ Frequency   1028.16570000000     
+ Average potential energy (cm-1)   247.010207772962     
+ Average potential energy (eV)  3.062546180619743E-002
+ Mode          21
+ Frequency   1078.64840000000     
+ Average potential energy (cm-1)   246.956007090686     
+ Average potential energy (eV)  3.061874175628575E-002
+ Mode          22
+ Frequency   1159.25880000000     
+ Average potential energy (cm-1)   267.058859944260     
+ Average potential energy (eV)  3.311118592615841E-002
+ Mode          23
+ Frequency   1204.41430000000     
+ Average potential energy (cm-1)   302.327238460082     
+ Average potential energy (eV)  3.748392172902688E-002
+ Mode          24
+ Frequency   1239.00390000000     
+ Average potential energy (cm-1)   302.036247810496     
+ Average potential energy (eV)  3.744784336973474E-002
+ Mode          25
+ Frequency   1334.50010000000     
+ Average potential energy (cm-1)   322.774529875594     
+ Average potential energy (eV)  4.001907097622527E-002
+ Mode          26
+ Frequency   1340.48490000000     
+ Average potential energy (cm-1)   348.615720184847     
+ Average potential energy (eV)  4.322298062019484E-002
+ Mode          27
+ Frequency   1369.92450000000     
+ Average potential energy (cm-1)   361.126854523519     
+ Average potential energy (eV)  4.477416860669859E-002
+ Mode          28
+ Frequency   1481.10610000000     
+ Average potential energy (cm-1)   371.307565250692     
+ Average potential energy (eV)  4.603641995390417E-002
+ Mode          29
+ Frequency   1559.71710000000     
+ Average potential energy (cm-1)   405.944820708474     
+ Average potential energy (eV)  5.033090621687204E-002
+ Mode          30
+ Frequency   1613.74470000000     
+ Average potential energy (cm-1)   380.764856294610     
+ Average potential energy (eV)  4.720897840105078E-002
+ Mode          31
+ Frequency   1660.36080000000     
+ Average potential energy (cm-1)   419.312731844776     
+ Average potential energy (eV)  5.198832133191755E-002
+ Mode          32
+ Frequency   1680.56400000000     
+ Average potential energy (cm-1)   429.480297385938     
+ Average potential energy (eV)  5.324894287849382E-002
+ Mode          33
+ Frequency   2339.05990000000     
+ Average potential energy (cm-1)   609.948638279900     
+ Average potential energy (eV)  7.562423793656646E-002
+ Mode          34
+ Frequency   3183.69360000000     
+ Average potential energy (cm-1)   749.464735055393     
+ Average potential energy (eV)  9.292208538858296E-002
+ Mode          35
+ Frequency   3184.08460000000     
+ Average potential energy (cm-1)   793.944859877311     
+ Average potential energy (eV)  9.843693587249749E-002
+ Mode          36
+ Frequency   3212.69340000000     
+ Average potential energy (cm-1)   833.149681338788     
+ Average potential energy (eV)  0.103297729979399     
+ Mode          37
+ Frequency   3213.75890000000     
+ Average potential energy (cm-1)   771.655890627636     
+ Average potential energy (eV)  9.567344693570488E-002
+ Mode          38
+ Frequency   3590.50890000000     
+ Average potential energy (cm-1)   858.201306244558     
+ Average potential energy (eV)  0.106403745672645     
+ Mode          39
+ Frequency   3702.65180000000     
+ Average potential energy (cm-1)   868.508338609514     
+ Average potential energy (eV)  0.107681658957582     
+ 
+ Average potential energy for all modes (cm-1)   12606.2725458388     
+ Average potential energy for all modes (eV)   1.56298365906383     
+ 
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ The average kinetic energy in dimensionaless normal coordinates
+ 
+ Mode           1
+ Frequency   105.223900000000     
+ Average kinetic energy (cm-1)   26.9000229891779     
+ Average kinetic energy (eV)  3.335188590254997E-003
+ Mode           2
+ Frequency   153.601700000000     
+ Average kinetic energy (cm-1)   41.5054818550906     
+ Average kinetic energy (eV)  5.146040565535023E-003
+ Mode           3
+ Frequency   257.984300000000     
+ Average kinetic energy (cm-1)   64.9895095479994     
+ Average kinetic energy (eV)  8.057698345386437E-003
+ Mode           4
+ Frequency   352.077200000000     
+ Average kinetic energy (cm-1)   88.8637616085425     
+ Average kinetic energy (eV)  1.101773793736855E-002
+ Mode           5
+ Frequency   384.231300000000     
+ Average kinetic energy (cm-1)   99.4823766997263     
+ Average kinetic energy (eV)  1.233428268198357E-002
+ Mode           6
+ Frequency   414.491400000000     
+ Average kinetic energy (cm-1)   100.806113904968     
+ Average kinetic energy (eV)  1.249840570987815E-002
+ Mode           7
+ Frequency   418.818500000000     
+ Average kinetic energy (cm-1)   101.426610797620     
+ Average kinetic energy (eV)  1.257533776891370E-002
+ Mode           8
+ Frequency   464.522500000000     
+ Average kinetic energy (cm-1)   121.660182538914     
+ Average kinetic energy (eV)  1.508398906779245E-002
+ Mode           9
+ Frequency   498.232200000000     
+ Average kinetic energy (cm-1)   135.358409287308     
+ Average kinetic energy (eV)  1.678235823187648E-002
+ Mode          10
+ Frequency   559.492400000000     
+ Average kinetic energy (cm-1)   146.392878404702     
+ Average kinetic energy (eV)  1.815046247158883E-002
+ Mode          11
+ Frequency   563.296600000000     
+ Average kinetic energy (cm-1)   143.545097584217     
+ Average kinetic energy (eV)  1.779738150567847E-002
+ Mode          12
+ Frequency   663.950200000000     
+ Average kinetic energy (cm-1)   166.692811741296     
+ Average kinetic energy (eV)  2.066734158631611E-002
+ Mode          13
+ Frequency   717.137000000000     
+ Average kinetic energy (cm-1)   165.233179560082     
+ Average kinetic energy (eV)  2.048636967418384E-002
+ Mode          14
+ Frequency   726.581300000000     
+ Average kinetic energy (cm-1)   174.256448662020     
+ Average kinetic energy (eV)  2.160511608446344E-002
+ Mode          15
+ Frequency   824.536100000000     
+ Average kinetic energy (cm-1)   218.408088697981     
+ Average kinetic energy (eV)  2.707923951358569E-002
+ Mode          16
+ Frequency   837.103800000000     
+ Average kinetic energy (cm-1)   219.114244692056     
+ Average kinetic energy (eV)  2.716679198204738E-002
+ Mode          17
+ Frequency   853.123000000000     
+ Average kinetic energy (cm-1)   221.524232862083     
+ Average kinetic energy (eV)  2.746559340130845E-002
+ Mode          18
+ Frequency   957.689300000000     
+ Average kinetic energy (cm-1)   224.155471191671     
+ Average kinetic energy (eV)  2.779182643310234E-002
+ Mode          19
+ Frequency   958.852100000000     
+ Average kinetic energy (cm-1)   251.851312559691     
+ Average kinetic energy (eV)  3.122568424672920E-002
+ Mode          20
+ Frequency   1028.16570000000     
+ Average kinetic energy (cm-1)   262.448211488162     
+ Average kinetic energy (eV)  3.253953652159680E-002
+ Mode          21
+ Frequency   1078.64840000000     
+ Average kinetic energy (cm-1)   290.779478388684     
+ Average kinetic energy (eV)  3.605217731569962E-002
+ Mode          22
+ Frequency   1159.25880000000     
+ Average kinetic energy (cm-1)   281.522840871699     
+ Average kinetic energy (eV)  3.490449681582822E-002
+ Mode          23
+ Frequency   1204.41430000000     
+ Average kinetic energy (cm-1)   326.689646708051     
+ Average kinetic energy (eV)  4.050448517064356E-002
+ Mode          24
+ Frequency   1239.00390000000     
+ Average kinetic energy (cm-1)   305.802402063401     
+ Average kinetic energy (eV)  3.791478849831260E-002
+ Mode          25
+ Frequency   1334.50010000000     
+ Average kinetic energy (cm-1)   315.164590162581     
+ Average kinetic energy (eV)  3.907555564489713E-002
+ Mode          26
+ Frequency   1340.48490000000     
+ Average kinetic energy (cm-1)   331.992181574866     
+ Average kinetic energy (eV)  4.116191783508210E-002
+ Mode          27
+ Frequency   1369.92450000000     
+ Average kinetic energy (cm-1)   346.494532410979     
+ Average kinetic energy (eV)  4.295998600253075E-002
+ Mode          28
+ Frequency   1481.10610000000     
+ Average kinetic energy (cm-1)   392.266201129808     
+ Average kinetic energy (eV)  4.863496803988385E-002
+ Mode          29
+ Frequency   1559.71710000000     
+ Average kinetic energy (cm-1)   358.174553076895     
+ Average kinetic energy (eV)  4.440812869276479E-002
+ Mode          30
+ Frequency   1613.74470000000     
+ Average kinetic energy (cm-1)   431.204488219717     
+ Average kinetic energy (eV)  5.346271598934044E-002
+ Mode          31
+ Frequency   1660.36080000000     
+ Average kinetic energy (cm-1)   455.493663149389     
+ Average kinetic energy (eV)  5.647419962728159E-002
+ Mode          32
+ Frequency   1680.56400000000     
+ Average kinetic energy (cm-1)   439.858124575886     
+ Average kinetic energy (eV)  5.453563363148976E-002
+ Mode          33
+ Frequency   2339.05990000000     
+ Average kinetic energy (cm-1)   592.162880688466     
+ Average kinetic energy (eV)  7.341907789592796E-002
+ Mode          34
+ Frequency   3183.69360000000     
+ Average kinetic energy (cm-1)   797.998581041621     
+ Average kinetic energy (eV)  9.893953486955864E-002
+ Mode          35
+ Frequency   3184.08460000000     
+ Average kinetic energy (cm-1)   781.916978522770     
+ Average kinetic energy (eV)  9.694566381392922E-002
+ Mode          36
+ Frequency   3212.69340000000     
+ Average kinetic energy (cm-1)   783.744756580232     
+ Average kinetic energy (eV)  9.717228014526907E-002
+ Mode          37
+ Frequency   3213.75890000000     
+ Average kinetic energy (cm-1)   822.247237325025     
+ Average kinetic energy (eV)  0.101945994819350     
+ Mode          38
+ Frequency   3590.50890000000     
+ Average kinetic energy (cm-1)   878.793782265383     
+ Average kinetic energy (eV)  0.108956895575059     
+ Mode          39
+ Frequency   3702.65180000000     
+ Average kinetic energy (cm-1)   945.262229783811     
+ Average kinetic energy (eV)  0.117197959453131     
+ 
+ Average kinetic energy for all modes (cm-1)   12852.1835952126     
+ Average kinetic energy for all modes (eV)   1.59347284215557     
+ 
+ 
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ The average kinetic energy in Catersian coordinates
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Check the kinetic energy from monmenta
+  Average of Kinetic Energy (au)   5.858070168977218E-002
+  Average of Kinetic Energy (eV)    1.59406267749633     
+ Check the kinetic energy from velocity
+  Average of Kinetic Energy (au)   5.858070164344149E-002
+  Average of Kinetic Energy (eV)    1.59406267623561     
+ ----------------------------------------

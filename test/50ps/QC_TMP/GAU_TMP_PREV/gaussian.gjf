@@ -1,0 +1,30 @@
+%chk=gaussian.chk
+%mem=1GB
+%nproc=2
+%nproclinda=1
+#   b3lyp/6-31g* scf=(tight,maxcycle=10000) iop(9/40=20) nosymm pop=full 
+
+[0] [0]
+
+1   1   
+c           -2.4296595   0.3810544   0.2131855
+n           -1.1745350   0.1558442   0.0725376
+h           -2.8061054   0.8631772   1.1140422
+h           -3.1014130   0.0901169  -0.5926702
+h           -0.8044591  -0.3303995  -0.7500395
+h           -0.4955614   0.4620201   0.7728361
+
+--LINK1--
+%chk=gaussian.chk
+%mem=1GB
+%nproc=2
+%nproclinda=1
+# force  b3lyp/ChkBasis scf=(tight,maxcycle=10000) iop(9/40=20) nosymm pop=full  geom=AllCheck Guess=Read 
+
+--LINK1--
+%chk=gaussian.chk
+%mem=1GB
+%nproc=2
+%nproclinda=1
+#   td(singlet, root=0, nstates=2) b3lyp/ChkBasis scf=(tight,maxcycle=10000) iop(9/40=20) nosymm pop=full  geom=AllCheck Guess=Read 
+
