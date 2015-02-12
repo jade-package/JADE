@@ -1,4 +1,0 @@
-#/bin/bash
-
-
-   bsub -q simul -n 8 -a openmp -R "span[hosts=1]" -o PPE.log -e PPE.err g09 PPE.gjf
