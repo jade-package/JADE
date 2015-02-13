@@ -39,7 +39,7 @@ Likai Du (dulk@qibebt.ac.cn or dulikai@gmail.com)
 Zhenggang Lan\* (lanzg@qibebt.ac.cn)
 
 
-Thanks to the contributions by <\br>
+Thanks to the contributions by <br>
 Jun Wang (wang\_jun@qibebt.ac.cn)
 Jing Huang (huangjing@qibebt.ac.cn)
 Deping Hu (hudp@qibebt.ac.cn)
