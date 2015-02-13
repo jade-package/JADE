@@ -4,7 +4,7 @@ the JADE Program
 
 an on-the-fly surface hopping code for poly-atomic systems 
 
-Copyright (c) 2014 
+2014
 ====
 
 an on-the-fly surface hopping code for nonadiabatic molecular dynamics of poly-atomic systems
@@ -40,7 +40,7 @@ Likai Du (dulk@qibebt.ac.cn or dulikai@gmail.com)
 Zhenggang Lan\* (lanzg@qibebt.ac.cn)
 
 
-thanks to the contributions by
+Thanks to the contributions by > 
 Jun Wang (wang\_jun@qibebt.ac.cn)
 Jing Huang (huangjing@qibebt.ac.cn)
 Deping Hu (hudp@qibebt.ac.cn)
