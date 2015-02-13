@@ -32,16 +32,15 @@ e-mail - lanzg@qibebt.ac.cn
 
 ---- 
 
-Main Contributors at the current stage
 
+
+Main Contributors at the current stage
+--------------------------------
 Likai Du (dulk@qibebt.ac.cn or dulikai@gmail.com)
 Zhenggang Lan\* (lanzg@qibebt.ac.cn)
 
-----
 
-
-with contributions by
--------------------------------
+thanks to the contributions by
 Jun Wang (wang\_jun@qibebt.ac.cn)
 Jing Huang (huangjing@qibebt.ac.cn)
 Deping Hu (hudp@qibebt.ac.cn)
