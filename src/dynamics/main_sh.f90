@@ -82,10 +82,11 @@
        write (*,*) "Initialization"
        file_dynvar_in=21       
        open(unit=file_dynvar_in, file="dyn.inp")      
+       write (*,*) "dyn.inp open to read.."
        read(file_dynvar_in, nml = control)
        if (dyn_method == 201) then
-          read(file_dynvar_in, nml = langevin)
           write(*, *) "Langevin Method is used to Control Temperature"
+          read(file_dynvar_in, nml = langevin)
        endif
        close(file_dynvar_in)
        allocate (md_state(n_state))       
