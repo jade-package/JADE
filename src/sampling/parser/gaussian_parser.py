@@ -247,7 +247,7 @@ class gaussian_parser():
         line = fp.readline()
         pat_freq = re.compile("Frequencies -- ")
         pat_mass = re.compile("Red. masses -- ")
-        pat_value = re.compile("Atom AN")
+        pat_value = re.compile("Atom\s+AN")
         while line != "":
             line = fp.readline()
             m1 = pat_freq.search(line)
@@ -271,7 +271,7 @@ class gaussian_parser():
  
         for i in xrange(0, n_atom):
             line = fp.readline()
-            print line
+            #print line
             record = line.split()[2:]
             n_col_tmp = len(record) / 3
             for j in xrange(i_start, i_start + n_col_tmp):
@@ -279,7 +279,6 @@ class gaussian_parser():
                 self.freq['normal_mode'][j][i*3+0] = float(record[j_col*3+0])
                 self.freq['normal_mode'][j][i*3+1] = float(record[j_col*3+1])
                 self.freq['normal_mode'][j][i*3+2] = float(record[j_col*3+2])
-                
                 # print j, i, j_col, record[j_col]
 
         return
