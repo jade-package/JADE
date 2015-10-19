@@ -191,15 +191,15 @@ subroutine read_std_normal(ran_all, n_ran)
 
 end subroutine read_std_normal
 
-subroutine get_std_normal(ran, nr)
-  implicit none
-  integer nr
-  double precision, dimension(:) :: ran
-  integer, save :: num = 0
+!subroutine get_std_normal(ran, nr)
+!  implicit none
+!  integer nr
+!  double precision, dimension(:) :: ran
+!  integer, save :: num = 0
 
- ! ran(1:nr) = ran_all(1:nr)
-  num = num + nr
-end subroutine get_std_normal
+! ran(1:nr) = ran_all(1:nr)
+!  num = num + nr
+!end subroutine get_std_normal
 
 
 subroutine write_array(ran, nr)
