@@ -1,5 +1,6 @@
  
 module langevin  
+  use randomlib
   implicit none
   ! @ Likai Du 
   ! units
