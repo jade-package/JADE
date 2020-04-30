@@ -1,6 +1,6 @@
 JADE
 ====
-the JADE Program
+the JADE Program (test)
 
 an on-the-fly surface hopping code for poly-atomic systems 
 
