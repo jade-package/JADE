@@ -1,6 +1,6 @@
 JADE
 ====
-the JADE Program (test)
+the JADE Program
 
 an on-the-fly surface hopping code for poly-atomic systems 
 
@@ -14,11 +14,6 @@ ADC(2)/CC2 is also interfaced with Turbomole.
 the interface with the semi-emperical MNDO code is also implemented in this release.
 
 The Langevin Dynamics is implemented now.
-
-
-
-
-
 
 
 Some of the code is still in progress or in testing stage, which would be updated later, if possible.
