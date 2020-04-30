@@ -16,6 +16,11 @@ the interface with the semi-emperical MNDO code is also implemented in this rele
 The Langevin Dynamics is implemented now.
 
 
+
+
+
+
+
 Some of the code is still in progress or in testing stage, which would be updated later, if possible.
 addtional interface to Molpro, Q-CHEM et al., spin orbital coupling, ONIOM/QM/MM feature, force field based dynamics.
 
