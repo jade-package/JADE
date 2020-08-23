@@ -8,6 +8,6 @@ an on-the-fly surface hopping code for poly-atomic systems
 
 an on-the-fly surface hopping code for nonadiabatic molecular dynamics of poly-atomic systems
 
-please the new version https://github.com/zglan/JADE-NAMD
+please see the new version https://github.com/zglan/JADE-NAMD
 
 
