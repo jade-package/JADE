@@ -1,8 +1,0 @@
-use 
-prepare.py
-to extract 'freq' related data.
-
-then
-generate main_input & run sampling.x
-
-later, i want to integrate prepare.py & sampliing.x & gen_input.py

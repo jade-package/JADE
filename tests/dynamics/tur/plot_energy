@@ -1,3 +1,0 @@
-
-
-plot "pes_time_ana" u 2:7, "pes_time_ana" u 2:6, "pes_time_ana" u 2:5, "pes_md_time_ana" u 2:6
